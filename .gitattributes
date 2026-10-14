@@ -1,0 +1,8 @@
+# Автоматическая обработка для большинства файлов
+* text=auto
+
+# Bash-скрипт всегда должен сохраняться с LF (Unix/Linux)
+aic text eol=lf
+
+# Bat-скрипт всегда должен сохраняться с CRLF (Windows)
+aic.bat text eol=crlf
